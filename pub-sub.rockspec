@@ -17,6 +17,6 @@ dependencies = {
 build = {
 	type = "builtin",
 	modules = {
-		tiny = "pub-sub.lua",
+		["pub-sub"] = "pub-sub.lua",
 	},
 }
